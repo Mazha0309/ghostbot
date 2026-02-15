@@ -1,0 +1,8 @@
+com/ghostbot/BotListener.class
+com/ghostbot/BotManager.class
+com/ghostbot/BotPlugin.class
+com/ghostbot/SkinFetcher$SkinData.class
+com/ghostbot/BotTabCompleter.class
+com/ghostbot/BotCommand.class
+com/ghostbot/SkinFetcher.class
+com/ghostbot/BotEntity.class

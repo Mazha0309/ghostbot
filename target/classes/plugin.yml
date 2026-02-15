@@ -1,0 +1,51 @@
+name: Bot
+version: '1.0.0-20260215.114319'
+main: com.ghostbot.BotPlugin
+description: 'Minecraft Bukkit 假人插件 - 创建能加载区块的真实玩家实体'
+api-version: '1.20'
+author: GhostBot
+
+commands:
+  bot:
+    description: 假人插件主命令
+    usage: /bot <spawn|remove|list|tp|look|move|stop|inv>
+    permission: bot.admin
+    aliases: [假人, npc]
+  
+permissions:
+  bot.admin:
+    description: 假人插件管理权限
+    default: op
+    children:
+      bot.spawn: true
+      bot.remove: true
+      bot.list: true
+      bot.tp: true
+      bot.look: true
+      bot.move: true
+      bot.stop: true
+      bot.inv: true
+  bot.spawn:
+    description: 生成假人
+    default: op
+  bot.remove:
+    description: 移除假人
+    default: op
+  bot.list:
+    description: 列出假人
+    default: op
+  bot.tp:
+    description: 传送假人
+    default: op
+  bot.look:
+    description: 控制假人视角
+    default: op
+  bot.move:
+    description: 控制假人移动
+    default: op
+  bot.stop:
+    description: 停止假人动作
+    default: op
+  bot.inv:
+    description: 查看假人背包
+    default: op

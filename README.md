@@ -55,7 +55,7 @@
 ### 环境要求
 - Java 17+
 - Maven 3.6+ 或 Gradle 7.0+
-- Paper 1.20.1 服务端
+- Paper 1.21 服务端
 
 ### Maven编译
 
